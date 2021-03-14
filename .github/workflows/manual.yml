@@ -1,8 +1,8 @@
 name: CI-CD-to AWS-EB
 env:
   EB_PACKAGE_S3_BUCKET_NAME : "yasamal-first-application"
-  EB_APPLICATION_NAME       : "yasamal-first-application-beans"
-  EB_ENVIRONMENT_NAME       : "Yasamalfirstapplicationbeans-env"
+  EB_APPLICATION_NAME       : "yasamal-second-application-beans"
+  EB_ENVIRONMENT_NAME       : "Yasamalsecondapplicationbeans-env"
   DEPLOY_PACKAGE_NAME       : "flask_app_${{ github.sha }}.zip"
   AWS_REGION_NAME           : "eu-central-1"
   
